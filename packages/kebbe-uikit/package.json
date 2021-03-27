@@ -1,14 +1,17 @@
 {
-  "name": "@pancakeswap-libs/uikit",
-  "version": "0.17.0",
-  "description": "Set of UI components for pancake projects",
+  "name": "@kebbeswapfinance-libs/uikit",
+  "version": "1.0.1",
+  "description": "Set of UI components for kebbe projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kebbeswapfinance/kebbe-toolkit/tree/master/packages/kebbe-uikit"
+  },
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
@@ -49,5 +52,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "author": ""
 }

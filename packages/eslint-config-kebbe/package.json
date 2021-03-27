@@ -6,7 +6,10 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/KebbeSwapFinance/kebbe-toolkit/tree/master/packages/eslint-config-kebbe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KebbeSwapFinance/kebbe-toolkit/tree/master/packages/eslint-config-kebbe"
+  },
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,
@@ -26,5 +29,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
